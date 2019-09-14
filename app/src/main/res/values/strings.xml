@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Conoce Huaycan</string>
+
+
+
+
+    <string name="dialog_valora_titulo">¿Te encanta Conoce Huaycan?</string>
+    <string name="dialog_valora_descripcion">Si tu respuesta es si, recomiendaselo a otras personas valorando Conoce Huaycan con 5 estrellas. ¡Corre la voz! :)</string>
+    <string name="dialog_valora_btn_valora">VALORAR AHORA</string>
+    <string name="dialog_valora_btn_no">NO, GRACIAS</string>
+
+    <string name="item_list_restaurante_giro_negocio">txt_giro_negocio"</string>
+    <string name="item_list_restaurante_nombre_negocio">txt_nombre_restaurante</string>
+    <string name="item_list_restaurante_count">(count)</string>
+</resources>
