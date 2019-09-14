@@ -1,49 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
         android:src="@drawable/image_default_list_restaurant"
         android:scaleType="fitXY"/>
     <TextView
+        android:id="@+id/txt_giro_negocio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/item_list_restaurante_giro_negocio"
+        android:textSize="16sp"
         android:layout_gravity="left"
         android:textColor="@color/dark_gray"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="5dp"/>
 
     <TextView
+        android:id="@+id/txt_nombre_lugar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/item_list_restaurante_nombre_negocio"
         android:layout_gravity="left"
         android:textStyle="bold"
-        android:textColor="@color/dark_gray"
-        android:layout_marginTop="10dp"/>
+        android:textSize="16sp"
+        android:textColor="@color/dark_gray" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp">
+        android:orientation="horizontal">
         <RatingBar
+            android:id="@+id/rb_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:rating="4.5"
+            android:layout_gravity="center_vertical"
+            android:progressTint="@color/green"
+            style="?android:attr/ratingBarStyleSmall"
             android:numStars="5"
 
             />
         <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/txt_visitas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/item_list_restaurante_count"
             android:layout_gravity="left"
-            android:textColor="@color/dark_gray"
-            android:layout_marginTop="10dp"/>
+            android:textColor="@color/dark_gray"            />
     </LinearLayout>
 
 
